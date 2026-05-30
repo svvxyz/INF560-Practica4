@@ -23,7 +23,7 @@ class NoteFactory extends Factory
             'titulo' => fake()->sentence(3),
             'contenido' => fake()->paragraph(1),
             'categoria' => fake()->randomElement($categories),
-            'fijada' => fake()->boolean()
+            'fijada' => fake()->boolean(20)
         ];
     }
 }
